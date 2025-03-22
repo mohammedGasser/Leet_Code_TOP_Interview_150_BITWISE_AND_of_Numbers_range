@@ -4,29 +4,24 @@ public:
    
   int res=left;
   int r=right;
-//    if( (left+1)!=(right) )
-//    {     
+  
        for( ;r>left ;  )
               { 
+                       {
+    	  //this like
+    	  //this mean r-- is copy of r and arfte & operation
+    	  //will be assigned to r
+    	  //6&=5
+    	  //4
                  r &= (r--);
-                   
-                //    if(1 != ))
-                //     break;
-              }
-            
-//    }
-//    else{
-//     res&=right;
-//    }
-             
 
-  
+             
+                       }
+      
 //    while(right>left){
 //             right&=(right-1);
 //         }
-//    while(left<right){
-//             left&=(left+1);
-//         }
+ 
 
    return r; 
   
